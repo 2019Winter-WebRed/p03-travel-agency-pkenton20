@@ -1,0 +1,32 @@
+/*
+* Paige Kenton
+* 4/9/2019
+* Padua Panda Travel Agency
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    background-color: aliceblue; /* background color of the web page */
+    }
+
+
+table, td, th {border: 4px solid lightblue;} /*changes the color and thickness of the brder of the table */
+table {border-collapse: collapse;} /*removes the space between cells */
+
+
+#snorkeling {width: 450px; height: 300px;} /* Apllies to image with id "snorkeling" */
+#resort {width: 400px; height: 250px;} /* Apllies to image with id "resort" */
+#pig {width: 420px; height: 300px} /* Apllies to image with id "pig" */
+
+#beach {float: right;} /* Applies to the figure with id "beach" */
+#hotel {float: left;} /* Applies to the figure with id "hotel" */
+#animal {float: right;} /* Applies to the figure with id "animal" */
+
+#nextheader {clear: right;} /* Clears the right float for the h3 with id "nextheader" */
